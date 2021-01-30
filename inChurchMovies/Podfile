@@ -16,7 +16,7 @@ target 'inChurchMovies' do
     # Pods for testing
   end
   
-    #pod 'RealmSwift'
+    pod 'RealmSwift'
   
 
 end
