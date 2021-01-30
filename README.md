@@ -1,32 +1,7 @@
-# inChurch Recruitment Process 2021 - iOS Developer
+# Projeto para processo seletivo 
 
 ###[Victor Vieira Veiga] (https://www.linkedin.com/in/victor-vieira-veiga-96867157)
-[GitHub](https://github.com/victorvieiraveiga
-
-)
-* * *
-
-## Arquitetura Utilizada
-
-+ ### MVC - Model View Controller
-	
-
-	Utilizei arquitetura MVC por achar mais adequado para organizar o projeto.
-	Criei ainda uma pasta Helpers onde inclui um arquivo para armazenar as constantes do projeto, como url's e alguns nomes de controles. 
-
-* * *
-
-## LIBS
-
-Utilizei o [Realm](https://realm.io/) para realizar a persistencia dos dados dos filmes favoritados. utilizei essa biblioteca por achar a codificação mais simples e com mais performance que o CoreData. 
-
-* * *
-
-## Execução
-
-* Executar prefenciamente no simulador do Iphone 11 ou 12.
-
-
+[GitHub](https://github.com/victorvieiraveiga)
 * * *
 
 ## Sobre o Projeto
@@ -46,7 +21,30 @@ EXCLUSÃO: Nesta tela tambem é possivel excluir o filme da lista de favoritos, se
 * TELA DE DETALHES. Nesta tela os detalhes do filme selecionado na pagina principal são visualizados. Contem imagem em maior tamanho, Data de lançamento, Genero e sinopse do filme. Nesta tela é realizada a favoritação do filme clicando na estrela ao lado do titulo. 
 
  ![Alt text](images/imgDetalhes.png) 
+
 * * *
+
+## Arquitetura Utilizada
+
++ ### MVC - Model View Controller
+
+* * *
+
+## LIBS
+
+Utilizei o [Realm](https://realm.io/) para realizar a persistencia dos dados dos filmes favoritados. utilizei essa biblioteca por achar a codificação mais simples e com mais performance que o CoreData. 
+
+* * *
+
+## Execução
+* Executar pod install
+* Executar prefenciamente no simulador do Iphone 11 ou 12.
+
+
+
+* * *
+
+
 
 
 * E-mail: victorvieiraveiga@gmail.com
