@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D8FF893D1BD0ACA995AB339F2361D2A /* Pods-inChurchMovies-inChurchMoviesUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1B1BF36B1CF07EE1F5CEDD51EE26CA6 /* Pods-inChurchMovies-inChurchMoviesUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B1BB2C1DCFD4242A34A13E5AE2EDEAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		84EF50E21A19E35FA16444D077A73443 /* Pods-inChurchMovies-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3474F130AA30C647E549B0345B34C63E /* Pods-inChurchMovies-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		871B8BE208F07760A81F6AB2FD39A18B /* Pods-inChurchMovies-inChurchMoviesUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9ADF17CD0BD7060808532F77BE8A1CE /* Pods-inChurchMovies-inChurchMoviesUITests-dummy.m */; };
+		B87F2A948BC26CC1036C9B437AEC4BF5 /* Pods-inChurchMoviesTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97371A2D8854481779B34901D9AAD11C /* Pods-inChurchMoviesTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB38D0E8C9167D21DC07B184FFBF9B23 /* Pods-inChurchMovies-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E53391517CAFA8D0E57742568EE2607 /* Pods-inChurchMovies-dummy.m */; };
+		C40A554FB62332B7821E02A46B8D0202 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E040FA50F37BBBE019737C8B259DFDA0 /* Pods-inChurchMoviesTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AF018F85F8A3EDD561D4B3EA073A36 /* Pods-inChurchMoviesTests-dummy.m */; };
+		FB8DB0918F00DA693297CC9EAD79DCC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		694B12D2A410CEB85DC85A406E1B1033 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 038CBFF24229377A8A3F98B3037E531F;
+			remoteInfo = "Pods-inChurchMovies";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AA260223C0ABE63A6FC38E0CB76C7C2 /* Pods-inChurchMovies-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-inChurchMovies-Info.plist"; sourceTree = "<group>"; };
+		13DE3F3879D7331C354278E50419C1BF /* Pods-inChurchMovies-inChurchMoviesUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-inChurchMovies-inChurchMoviesUITests.modulemap"; sourceTree = "<group>"; };
+		28B36C2C757EBA8DB843475A4DDD87FB /* Pods-inChurchMovies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-inChurchMovies.release.xcconfig"; sourceTree = "<group>"; };
+		28F964D1B718F9DC77945CF35A85544A /* Pods-inChurchMoviesTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-inChurchMoviesTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		29AF018F85F8A3EDD561D4B3EA073A36 /* Pods-inChurchMoviesTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-inChurchMoviesTests-dummy.m"; sourceTree = "<group>"; };
+		2BBAFF7461CC385ACD190C7043895F7F /* Pods_inChurchMovies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_inChurchMovies.framework; path = "Pods-inChurchMovies.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F15A8924E86054234207FA42B3B9590 /* Pods-inChurchMovies-inChurchMoviesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-inChurchMovies-inChurchMoviesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3474F130AA30C647E549B0345B34C63E /* Pods-inChurchMovies-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-inChurchMovies-umbrella.h"; sourceTree = "<group>"; };
+		553D4FBBA5444D9AF2ADC5C549B7B2E3 /* Pods-inChurchMovies-inChurchMoviesUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-inChurchMovies-inChurchMoviesUITests-Info.plist"; sourceTree = "<group>"; };
+		609B21B9C3E73E5C6195585BDC7C7096 /* Pods-inChurchMoviesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-inChurchMoviesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E7204496C4F08C214147DB6E451EEC1 /* Pods-inChurchMoviesTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-inChurchMoviesTests-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		86554DFDB6BEABF3416C5A54C4E6FAD7 /* Pods-inChurchMoviesTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-inChurchMoviesTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8820DEF46C8E15999B9FC645564CA2F4 /* Pods-inChurchMovies-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-inChurchMovies-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8DC8D55293E314F8DE7E08D337E83C3D /* Pods-inChurchMovies-inChurchMoviesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-inChurchMovies-inChurchMoviesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		936DC579740DC6965FF1452C9F04115A /* Pods-inChurchMovies-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-inChurchMovies-acknowledgements.plist"; sourceTree = "<group>"; };
+		97371A2D8854481779B34901D9AAD11C /* Pods-inChurchMoviesTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-inChurchMoviesTests-umbrella.h"; sourceTree = "<group>"; };
+		98F1D5806A643B509413A91B86404E37 /* Pods_inChurchMovies_inChurchMoviesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_inChurchMovies_inChurchMoviesUITests.framework; path = "Pods-inChurchMovies-inChurchMoviesUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E53391517CAFA8D0E57742568EE2607 /* Pods-inChurchMovies-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-inChurchMovies-dummy.m"; sourceTree = "<group>"; };
+		A9ADF17CD0BD7060808532F77BE8A1CE /* Pods-inChurchMovies-inChurchMoviesUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-inChurchMovies-inChurchMoviesUITests-dummy.m"; sourceTree = "<group>"; };
+		B00BFFC04F7348E4B25B7F00F370424E /* Pods-inChurchMovies.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-inChurchMovies.modulemap"; sourceTree = "<group>"; };
+		B8007475690ACA3C97ECDAD4CA629B10 /* Pods-inChurchMovies-inChurchMoviesUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-inChurchMovies-inChurchMoviesUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C1AF2A9FFF3A3BC3019211A7F18145BA /* Pods-inChurchMoviesTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-inChurchMoviesTests.modulemap"; sourceTree = "<group>"; };
+		DB0450E6A500AA10DC26F6B624A4A918 /* Pods_inChurchMoviesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_inChurchMoviesTests.framework; path = "Pods-inChurchMoviesTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD54B981D1033D4560135899806F7423 /* Pods-inChurchMoviesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-inChurchMoviesTests.release.xcconfig"; sourceTree = "<group>"; };
+		E13D5AE4F408B3A2C4C45F3267E7F74D /* Pods-inChurchMovies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-inChurchMovies.debug.xcconfig"; sourceTree = "<group>"; };
+		F1B1BF36B1CF07EE1F5CEDD51EE26CA6 /* Pods-inChurchMovies-inChurchMoviesUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-inChurchMovies-inChurchMoviesUITests-umbrella.h"; sourceTree = "<group>"; };
+		F7B334C7DDEF701CA0820DF0D427D0D1 /* Pods-inChurchMovies-inChurchMoviesUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-inChurchMovies-inChurchMoviesUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F5DB7E7EB83F8CEFE698F499B7EC23B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40A554FB62332B7821E02A46B8D0202 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CAB673CBAED9F71D02E5B0C3586A0BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8DB0918F00DA693297CC9EAD79DCC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1DF07634F6DB452924E3C298FF04FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1BB2C1DCFD4242A34A13E5AE2EDEAF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		270C24F49D16C701CA41E7D3514C49BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BBAFF7461CC385ACD190C7043895F7F /* Pods_inChurchMovies.framework */,
+				98F1D5806A643B509413A91B86404E37 /* Pods_inChurchMovies_inChurchMoviesUITests.framework */,
+				DB0450E6A500AA10DC26F6B624A4A918 /* Pods_inChurchMoviesTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		69184629CD020A73D0EE96504F2A20A2 /* Pods-inChurchMovies-inChurchMoviesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13DE3F3879D7331C354278E50419C1BF /* Pods-inChurchMovies-inChurchMoviesUITests.modulemap */,
+				B8007475690ACA3C97ECDAD4CA629B10 /* Pods-inChurchMovies-inChurchMoviesUITests-acknowledgements.markdown */,
+				F7B334C7DDEF701CA0820DF0D427D0D1 /* Pods-inChurchMovies-inChurchMoviesUITests-acknowledgements.plist */,
+				A9ADF17CD0BD7060808532F77BE8A1CE /* Pods-inChurchMovies-inChurchMoviesUITests-dummy.m */,
+				553D4FBBA5444D9AF2ADC5C549B7B2E3 /* Pods-inChurchMovies-inChurchMoviesUITests-Info.plist */,
+				F1B1BF36B1CF07EE1F5CEDD51EE26CA6 /* Pods-inChurchMovies-inChurchMoviesUITests-umbrella.h */,
+				8DC8D55293E314F8DE7E08D337E83C3D /* Pods-inChurchMovies-inChurchMoviesUITests.debug.xcconfig */,
+				2F15A8924E86054234207FA42B3B9590 /* Pods-inChurchMovies-inChurchMoviesUITests.release.xcconfig */,
+			);
+			name = "Pods-inChurchMovies-inChurchMoviesUITests";
+			path = "Target Support Files/Pods-inChurchMovies-inChurchMoviesUITests";
+			sourceTree = "<group>";
+		};
+		8504B3216890CE1EAAAA0954E72EA4AA /* Pods-inChurchMovies */ = {
+			isa = PBXGroup;
+			children = (
+				B00BFFC04F7348E4B25B7F00F370424E /* Pods-inChurchMovies.modulemap */,
+				8820DEF46C8E15999B9FC645564CA2F4 /* Pods-inChurchMovies-acknowledgements.markdown */,
+				936DC579740DC6965FF1452C9F04115A /* Pods-inChurchMovies-acknowledgements.plist */,
+				9E53391517CAFA8D0E57742568EE2607 /* Pods-inChurchMovies-dummy.m */,
+				0AA260223C0ABE63A6FC38E0CB76C7C2 /* Pods-inChurchMovies-Info.plist */,
+				3474F130AA30C647E549B0345B34C63E /* Pods-inChurchMovies-umbrella.h */,
+				E13D5AE4F408B3A2C4C45F3267E7F74D /* Pods-inChurchMovies.debug.xcconfig */,
+				28B36C2C757EBA8DB843475A4DDD87FB /* Pods-inChurchMovies.release.xcconfig */,
+			);
+			name = "Pods-inChurchMovies";
+			path = "Target Support Files/Pods-inChurchMovies";
+			sourceTree = "<group>";
+		};
+		B5B01D28CD82B81F0654FE50AC26016D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8504B3216890CE1EAAAA0954E72EA4AA /* Pods-inChurchMovies */,
+				69184629CD020A73D0EE96504F2A20A2 /* Pods-inChurchMovies-inChurchMoviesUITests */,
+				F9F45D4B95B4C2EE217F9E02BCBE0383 /* Pods-inChurchMoviesTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				270C24F49D16C701CA41E7D3514C49BF /* Products */,
+				B5B01D28CD82B81F0654FE50AC26016D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9F45D4B95B4C2EE217F9E02BCBE0383 /* Pods-inChurchMoviesTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1AF2A9FFF3A3BC3019211A7F18145BA /* Pods-inChurchMoviesTests.modulemap */,
+				28F964D1B718F9DC77945CF35A85544A /* Pods-inChurchMoviesTests-acknowledgements.markdown */,
+				86554DFDB6BEABF3416C5A54C4E6FAD7 /* Pods-inChurchMoviesTests-acknowledgements.plist */,
+				29AF018F85F8A3EDD561D4B3EA073A36 /* Pods-inChurchMoviesTests-dummy.m */,
+				6E7204496C4F08C214147DB6E451EEC1 /* Pods-inChurchMoviesTests-Info.plist */,
+				97371A2D8854481779B34901D9AAD11C /* Pods-inChurchMoviesTests-umbrella.h */,
+				609B21B9C3E73E5C6195585BDC7C7096 /* Pods-inChurchMoviesTests.debug.xcconfig */,
+				DD54B981D1033D4560135899806F7423 /* Pods-inChurchMoviesTests.release.xcconfig */,
+			);
+			name = "Pods-inChurchMoviesTests";
+			path = "Target Support Files/Pods-inChurchMoviesTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		103688F65EE52EC302C48A7C010DBE17 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8FF893D1BD0ACA995AB339F2361D2A /* Pods-inChurchMovies-inChurchMoviesUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8073CDB0A8C646C179E77C8D63B7DB2A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EF50E21A19E35FA16444D077A73443 /* Pods-inChurchMovies-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E391DD8158C73CBB5DBD553A0E223832 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B87F2A948BC26CC1036C9B437AEC4BF5 /* Pods-inChurchMoviesTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		038CBFF24229377A8A3F98B3037E531F /* Pods-inChurchMovies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B2596B768DDFE36079B0D4A5686B3EA /* Build configuration list for PBXNativeTarget "Pods-inChurchMovies" */;
+			buildPhases = (
+				8073CDB0A8C646C179E77C8D63B7DB2A /* Headers */,
+				071F6A92DD7900ECF8106359EF20B9A9 /* Sources */,
+				7CAB673CBAED9F71D02E5B0C3586A0BA /* Frameworks */,
+				C36EB3452B9D045FF8C4765CB4127599 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-inChurchMovies";
+			productName = "Pods-inChurchMovies";
+			productReference = 2BBAFF7461CC385ACD190C7043895F7F /* Pods_inChurchMovies.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		06048D1C23510091F755CC8E887C4224 /* Pods-inChurchMovies-inChurchMoviesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C916F12187FA21D2F937AA7F031B2B /* Build configuration list for PBXNativeTarget "Pods-inChurchMovies-inChurchMoviesUITests" */;
+			buildPhases = (
+				103688F65EE52EC302C48A7C010DBE17 /* Headers */,
+				1C664416259645E8E13DD8D773759A01 /* Sources */,
+				4F5DB7E7EB83F8CEFE698F499B7EC23B /* Frameworks */,
+				C53BC38DE7ACBCED91E831BAD3ACA51C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-inChurchMovies-inChurchMoviesUITests";
+			productName = "Pods-inChurchMovies-inChurchMoviesUITests";
+			productReference = 98F1D5806A643B509413A91B86404E37 /* Pods_inChurchMovies_inChurchMoviesUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		55CA04BE492AE2C58D73260661BFB021 /* Pods-inChurchMoviesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A1BF195AC0426801EC859BA96941C32 /* Build configuration list for PBXNativeTarget "Pods-inChurchMoviesTests" */;
+			buildPhases = (
+				E391DD8158C73CBB5DBD553A0E223832 /* Headers */,
+				1E916921917DABB0B645C8F17A928657 /* Sources */,
+				E1DF07634F6DB452924E3C298FF04FF5 /* Frameworks */,
+				12C83821CF93475D8828ADE5DD9E1F23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1118B24DE4C1B4AD145D70145E101331 /* PBXTargetDependency */,
+			);
+			name = "Pods-inChurchMoviesTests";
+			productName = "Pods-inChurchMoviesTests";
+			productReference = DB0450E6A500AA10DC26F6B624A4A918 /* Pods_inChurchMoviesTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 270C24F49D16C701CA41E7D3514C49BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				038CBFF24229377A8A3F98B3037E531F /* Pods-inChurchMovies */,
+				06048D1C23510091F755CC8E887C4224 /* Pods-inChurchMovies-inChurchMoviesUITests */,
+				55CA04BE492AE2C58D73260661BFB021 /* Pods-inChurchMoviesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12C83821CF93475D8828ADE5DD9E1F23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36EB3452B9D045FF8C4765CB4127599 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C53BC38DE7ACBCED91E831BAD3ACA51C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		071F6A92DD7900ECF8106359EF20B9A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB38D0E8C9167D21DC07B184FFBF9B23 /* Pods-inChurchMovies-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C664416259645E8E13DD8D773759A01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				871B8BE208F07760A81F6AB2FD39A18B /* Pods-inChurchMovies-inChurchMoviesUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E916921917DABB0B645C8F17A928657 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E040FA50F37BBBE019737C8B259DFDA0 /* Pods-inChurchMoviesTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1118B24DE4C1B4AD145D70145E101331 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-inChurchMovies";
+			target = 038CBFF24229377A8A3F98B3037E531F /* Pods-inChurchMovies */;
+			targetProxy = 694B12D2A410CEB85DC85A406E1B1033 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		125C51B0F88E28C868DC90BD45E4E727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		73840091F60D3420582EBDF53952098C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD54B981D1033D4560135899806F7423 /* Pods-inChurchMoviesTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-inChurchMoviesTests/Pods-inChurchMoviesTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-inChurchMoviesTests/Pods-inChurchMoviesTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		92A3E9AC052A7345115439021B218E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A3CB6C0A362633E34A24A63A37C29CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28B36C2C757EBA8DB843475A4DDD87FB /* Pods-inChurchMovies.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-inChurchMovies/Pods-inChurchMovies-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-inChurchMovies/Pods-inChurchMovies.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D82BAE57420989FAED92414334B3370A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E13D5AE4F408B3A2C4C45F3267E7F74D /* Pods-inChurchMovies.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-inChurchMovies/Pods-inChurchMovies-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-inChurchMovies/Pods-inChurchMovies.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DCF2B652986AD30756863B42F197280C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DC8D55293E314F8DE7E08D337E83C3D /* Pods-inChurchMovies-inChurchMoviesUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-inChurchMovies-inChurchMoviesUITests/Pods-inChurchMovies-inChurchMoviesUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-inChurchMovies-inChurchMoviesUITests/Pods-inChurchMovies-inChurchMoviesUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2B3920E762C6E2DF653BC994E23B5E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 609B21B9C3E73E5C6195585BDC7C7096 /* Pods-inChurchMoviesTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-inChurchMoviesTests/Pods-inChurchMoviesTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-inChurchMoviesTests/Pods-inChurchMoviesTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F8FF0FC514E8D3AC1B5F6B4F81CE276C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F15A8924E86054234207FA42B3B9590 /* Pods-inChurchMovies-inChurchMoviesUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-inChurchMovies-inChurchMoviesUITests/Pods-inChurchMovies-inChurchMoviesUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-inChurchMovies-inChurchMoviesUITests/Pods-inChurchMovies-inChurchMoviesUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04C916F12187FA21D2F937AA7F031B2B /* Build configuration list for PBXNativeTarget "Pods-inChurchMovies-inChurchMoviesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF2B652986AD30756863B42F197280C /* Debug */,
+				F8FF0FC514E8D3AC1B5F6B4F81CE276C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A1BF195AC0426801EC859BA96941C32 /* Build configuration list for PBXNativeTarget "Pods-inChurchMoviesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2B3920E762C6E2DF653BC994E23B5E0 /* Debug */,
+				73840091F60D3420582EBDF53952098C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				125C51B0F88E28C868DC90BD45E4E727 /* Debug */,
+				92A3E9AC052A7345115439021B218E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B2596B768DDFE36079B0D4A5686B3EA /* Build configuration list for PBXNativeTarget "Pods-inChurchMovies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D82BAE57420989FAED92414334B3370A /* Debug */,
+				A3CB6C0A362633E34A24A63A37C29CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
